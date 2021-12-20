@@ -1,0 +1,50 @@
+
+@import '_initials.less';
+
+.hero-main{
+    width: 100%;
+    .hero-body{
+        .flex-col;
+        .text-col{
+            width: 50%;
+            margin-top: 7rem;
+            .flex-col;
+            .title{
+                font-size: 4rem;
+                font-weight: 700;
+            }
+            .button{
+                margin-top: 6rem;
+                padding: 1rem 2rem;
+                font-size: 2rem;
+                background: @orange;
+                width: fit-content;
+                border-radius: 1rem;
+                color: darken(white, 10%);
+                cursor: pointer;
+                &:hover, &:active{
+                    background: lighten(@orange, 10%)
+                }
+            }
+        }
+        .second-hero{
+            margin-top: 28rem;
+            .flex-col;
+            align-items: center;
+            
+            .sec-hero-box{
+                padding: 3rem 4rem;
+                background: #FFCC1D;
+                font-size: 3rem;
+                font-weight: 300;
+                clip-path: polygon(0 0, 96% 1%, 100% 100%, 6% 82%);
+            }
+            .sec-hero-img{
+                margin-top: 3rem;
+                box-shadow: 0px 0px 20px #00000045;
+                border-radius: 1rem;
+                overflow: hidden;
+            }
+        }
+    }
+}

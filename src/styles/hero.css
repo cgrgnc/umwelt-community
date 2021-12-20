@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v17/FwZY7-Qmy14u9lezJ96A.ttf) format('truetype');
+}
+.background {
+  background: #c2c0c0;
+  background: -moz-linear-gradient(0deg, #c2c0c0 54%, #ffffff 100%);
+  background: -webkit-linear-gradient(0deg, #c2c0c0 54%, #ffffff 100%);
+  background: linear-gradient(0deg, #c2c0c0 54%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c2c0c0", endColorstr="#ffffff", GradientType=1);
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.hero-main {
+  width: 100%;
+}
+.hero-main .hero-body {
+  display: flex;
+  flex-direction: column;
+}
+.hero-main .hero-body .text-col {
+  width: 50%;
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+}
+.hero-main .hero-body .text-col .title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.hero-main .hero-body .text-col .button {
+  margin-top: 6rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  background: #FF8E00;
+  width: fit-content;
+  border-radius: 1rem;
+  color: #e6e6e6;
+  cursor: pointer;
+}
+.hero-main .hero-body .text-col .button:hover,
+.hero-main .hero-body .text-col .button:active {
+  background: #ffa533;
+}
+.hero-main .hero-body .second-hero {
+  margin-top: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-main .hero-body .second-hero .sec-hero-box {
+  padding: 3rem 4rem;
+  background: #FFCC1D;
+  font-size: 3rem;
+  font-weight: 300;
+  clip-path: polygon(0 0, 96% 1%, 100% 100%, 6% 82%);
+}
+.hero-main .hero-body .second-hero .sec-hero-img {
+  margin-top: 3rem;
+  box-shadow: 0px 0px 20px #00000045;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+/*# sourceMappingURL=hero.css.map */
